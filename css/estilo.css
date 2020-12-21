@@ -1,0 +1,484 @@
+/*
+* @author Jonathan D. Nunes de Souza
+*/
+
+/* TIPOGRAFIA
+---------------------*/
+
+@font-face {
+	font-family: "Raleway Bold";
+	src: url("../fontes/ralewaybold.woff");
+}
+
+@font-face {
+	font-family: "Raleway Regular";
+	src: url("../fontes/ralewayregular.woff");
+}
+
+body {
+
+	font-family: "Raleway Regular"
+}
+
+
+/* BARRA DE NAVEGAÇÃO
+---------------------*/
+
+header .navbar-cor {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.menu-navegacao {
+
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Raleway Bold";
+	margin-left: 40px;
+	font-size: 0.7em;
+}
+ 
+.menu-navegacao li {
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.menu-navegacao li a {
+	color: #b4b4b4;
+	letter-spacing: 0.05px;
+}
+
+.menuResponsivo {
+	color: #b4b4b4;
+}
+
+/* CAROUSEL-LINK
+--------------*/
+
+.carousel-icones {
+
+	color: #E27272;
+	font-size: 38px;
+}
+
+#carouselSlide {
+	background: /*cor do fundo da section carouselSlide */
+}
+
+.media {
+	margin-top: 15px;
+}
+
+.media-body h5 {
+
+	font-size:16px;
+	font-weight: 650;
+	color: #8a8a8a;
+}
+
+.media-body p {
+	font-size: 14px;
+}
+
+#controles .fas {
+	color:#E27272;
+	font-size: 25px;
+}
+
+
+
+/* SEÇAÕ DE CURSOS - PARTE 1
+--------------------------*/
+
+.curso-manutencao {
+	background: url(../imagens/manutencao-home.jpg)no-repeat;
+	width: 100%;
+	height: 100%;
+
+}
+
+.curso-quimica {
+	background: url(../imagens/quimica-home.jpg)no-repeat;
+	width: 640px;
+	height: 346px;
+}
+
+.curso-mkt {
+	background: url(../imagens/marketing-home.jpg)no-repeat;
+	width: 640px;
+	height: 346px;
+}
+
+.curso-enfermagem {
+	background: url(../imagens/enfermagem-home.jpg)no-repeat;
+	width: 640px;
+	height: 346px;
+}
+
+.curso-adm {
+	background: url(../imagens/adm-home.jpg)no-repeat;
+	width: 640px;
+	height: 346px;
+}
+
+.curso-web {
+	background: url(../imagens/web-home.jpg)no-repeat;
+	width: 640px;
+	height: 346px;
+}
+
+/* SEÇAÕ DE CURSOS - BOTÕES
+-------------------------*/
+.btn-custom {
+
+  color:white;
+  border-radius: 500px;
+  -webkit-border-radius:500px;
+  -moz-border-radius:500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 15px;
+}
+
+.btn-custom {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.coluna-curso {
+  position: relative;
+  width: 640px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 6px 2px;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.text h5 {
+ 	
+	font-weight: 600;
+
+}
+
+.coluna-curso:hover .overlay {
+  opacity: 0.5;
+}
+.coluna-curso:hover .text {
+  opacity: 1;
+  cursor: pointer;
+}
+.text a, a:visited, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* SEÇAÕ DE MAIS CURSOS
+---------------------*/
+
+#texto-fluid-curso {
+
+	padding:30px 0px 30px 0px;
+	background: #E27272;
+	color: white;
+}
+
+#texto-fluid-curso h4 {
+	font-weight: 600;
+	font-size: 22px;	
+}
+
+#texto-fluid-curso p {
+	font-size: 18px;
+}
+
+#outros-cursos .curso-ensino-medio-r {
+	background: url(../imagens/ensino-medio.jpg)no-repeat;
+	width: 952px;
+	height: 364px;
+
+}
+
+#outros-cursos .curso-ensino-medio-i {
+	background: url(../imagens/tecnico.jpg)no-repeat;
+	width: 952px;
+	height: 364px;
+
+}
+
+/* SEÇÃO - MAIS CURSOS (ENSINO MÉDIO REGULAR & ENSINO MÉDIO + TÉCNICO)
+--------------------------------------------------------------------*/
+
+.coluna-curso-ensino-medio {
+	position: relative;
+	width: 50%;
+}
+
+.sobreposicao {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background:rgba(0,0,0,0.5);
+	transition: .5s ease;
+}
+
+.text-curso-ensino-medio {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 6px 2px;
+  transition: .5s ease;
+ 
+}
+
+.text-curso-ensino-medio h5 {
+ 	
+	font-weight: 600;
+
+}
+
+.imagem-curso-ensino-medio {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* SEÇÃO - DEPOIMENTOS
+--------------------*/
+
+#texto-fluid-depoimento {
+
+	padding:30px 0px 30px 0px;
+	background: #1BBAAF;
+	color: white;
+}
+
+#texto-fluid-depoimento h4 {
+	font-weight: 600;
+	font-size: 22px;	
+}
+
+#texto-fluid-depoimento p {
+	font-size: 18px;
+}
+
+/* SEÇÃO - MURAL DE INFORMAÇÕES
+-----------------------------*/
+
+#muralInformacoes {
+	background: #EFEFEF;
+}
+
+.tituloLista {
+	font-weight: 600;
+}
+
+.noticiasAvisos {
+	background: white;
+	padding:40px;
+}
+
+.itemListaNoticiaIcone {
+	color:#E27272;
+}
+
+.vagasEstagio {
+	background: #E27272;
+	padding:40px;
+}
+
+.itemListaEstagioIcone {
+	color: white;
+}
+
+.itemListaEstagioTexto {
+	color: white;
+}
+
+
+/* SEÇÃO - SOCIAL ICONES/REDES SOCIAIS
+------------------------------------*/
+
+.socialIconeInstagram {
+	background: #EE3A5D;
+	padding: 20px;
+}
+
+.socialIconeFacebook {
+	background: #3B5999;
+	padding: 20px;
+}
+
+.socialIconeLinkedin {
+	background: #1B7A97;
+	padding: 20px;
+}
+
+.socialIcone {
+	font-size: 60px;
+}
+
+/* SEÇÃO - RODAPÉ
+---------------*/
+
+#rodape {
+	background: #2A414C;
+	padding:30px;
+	color: white;
+}
+
+footer h5 {
+	font-weight: 600;
+	color: white;
+
+}
+
+#ceeteps {
+	background: #A42029;
+	padding: 15px;
+}
+
+#copyrightEtec {
+	background: #E27272;
+}
+
+#copyrightEtec p {
+	margin-bottom: 0;
+}
+
+
+/* OUTRAS PÁGINAS - CURSOS
+
+	curso_manutencao.html
+	curso_quimica.html
+    curso_marketing.html
+    curso_enfermagem.html
+    curso_administracao.html
+    curso_web.html
+    curso_ensino_medio_regular.html
+    curso_ensino_medio_tecnico.html
+
+-----------------------------*/
+
+.conhecendoCurso {
+	background: #f6f6f6;
+	padding: 50px 50px 50px 50px;
+	color: #6A6A6A;
+}
+
+.conhecendoCurso h5 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+#cursoObjetivosGerais {
+	padding:30px;
+	background: white;
+	color: #6A6A6A;
+}
+
+#cursoObjetivosGerais h5 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+#cursoObjetivosEspecificos {
+	padding:30px; 
+	background: #f6f6f6;
+	color: #6A6A6A;
+}
+
+#cursoObjetivosEspecificos h5 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+/* NOME DO CURSO
+--------------*/
+
+#nomeCurso {
+	background: #E27272;
+	padding: 15px;
+}
+
+
+
+/* MEDIAQUERIES
+-------------*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+	
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+}
