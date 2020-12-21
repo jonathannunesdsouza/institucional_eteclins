@@ -9,7 +9,38 @@ Este projeto é um site estático desenvolvido p/ fins educacionais com a inten�
 
 ## Exibição em Desktop
 
-![Screenshoot Desktop](screenshoots-projeto/)
+![Screenshoot Desktop 1](screenshoots-projeto/screenshoot_index_1_desktop.png)
+
+![Screenshoot Desktop 2](screenshoots-projeto/screenshoot_index_2_desktop.png)
+
+![Screenshoot Desktop 3](screenshoots-projeto/screenshoot_index_3_desktop.png)
+
+![Screenshoot Desktop 4](screenshoots-projeto/screenshoot_index_4_desktop.png)
+
+![Screenshoot Desktop 4](screenshoots-projeto/screenshoot_curso_1_desktop.png)
+
+## Instalação
+
+Para executar o projeto localmente o repositório deve ser clonado da forma desejada:
+
+```
+git clone https://github.com/jonathannunesdsouza/eteclins.github.io.git
+```
+
+## Histórico de atualização 
+
+* 0.0.1;
+    * Lançamento inicial.
+
+## Meta 
+
+Jonathan Douglas Nunes de Souza - [@jonathansouza] - <jonathannunes.souza98@gmail.com>
+
+[@jonathansouza]:https://www.linkedin.com/in/perfil-in/
+
+Distribuido sob licença. Veja **`LICENÇA`** para mais informações.
+
+[https://github.com/jonathannunesdsouza/jonathannunesdsouza.github.io]
 
 
 [Etec de Lins]:https://eteclins.com.br
