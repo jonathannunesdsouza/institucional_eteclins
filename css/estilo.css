@@ -125,9 +125,10 @@ header .navbar-cor {
 }
 
 .curso-web {
-	background: url(../imagens/web-home.jpg)no-repeat;
-	width: 640px;
-	height: 346px;
+	/*background: url(../imagens/web-home.jpg)no-repeat;*/
+	width: 100%;
+	height: 100%;
+	padding: 0;
 }
 
 /* SEÇAÕ DE CURSOS - BOTÕES
