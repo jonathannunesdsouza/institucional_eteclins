@@ -3,6 +3,8 @@
 
 Este projeto é um site estático desenvolvido p/ fins educacionais com a intenção de tangibilizar meus conhecimentos em front-end.
 
+## Exibição Mobile
+
 ![Screenshoot Mobile 1](screenshoots-projeto/screenshoot_mobile_1.png)
 
 ![Screenshoot Mobile 2](screenshoots-projeto/screenshoot_mobile_2.png)
